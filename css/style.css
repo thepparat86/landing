@@ -20,12 +20,29 @@ a {
 
 /* Custom design below! */
 
+/* BUTTON */
+
+.btn-flat {
+  color: white;
+  padding: 8px 24px;
+  border-radius: 4px;
+  background: #1EDD88;
+  transition: background 0.3s ease;
+}
+
+.btn-flat:hover {
+  background: #1BCB7F;
+  color: white;
+}
+
+
 /* HERO BANNER */
 
 .banner {
   background-size: cover;
   background-position: center;
   padding: 150px 0;
+  background-image: url(../images/background.png);
 }
 
 .banner h1 {
@@ -41,6 +58,10 @@ a {
   color: white;
   opacity: .7;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  background-image: url(images/background.png);
+  background-size: cover;
+  background-position: center;
+  padding: 20px 0;
 }
 
 /* FOOTER */
@@ -78,7 +99,8 @@ a {
 .howitworks {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 16px;
+  grid-gap: 50px;
+  padding: 30px;
 }
 
 // Smallest device
